@@ -9,7 +9,7 @@ header a:visited {
   color:  black;
 }
 
-main a:visited {
+a:visited {
   color: green;
 }
 
@@ -70,7 +70,7 @@ header li {
   border-right: 1px solid white ;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   header li{
     width: 100%;
     text-align: center ;
@@ -78,9 +78,25 @@ header li {
     padding: 0;
     margin-top: 5px ;
   }
+  main {
+    top: 200px;
+  }
+  #rabbitshift {
+    top:225px;
+  }
 }
 
 #currentpage {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#whiterabbit {
+background-image: url("http://wonderopolis.org/wp-content/uploads/2011/04/rabbit-on-white-background_shutterstock_64146802.jpg");
+}
+
+.darkrabbit {
+  color: black ;
+  position: relative ;
+  top: 125px;
 }
