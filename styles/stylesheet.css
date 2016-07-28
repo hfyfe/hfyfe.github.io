@@ -5,20 +5,39 @@ body {
   max-width: 800px;
 }
 
+header {
+  position:fixed;
+  background: blue ;
+  width: 100%;
+  z-index: 1;
+}
+
+header h1 {
+  font-family:"Comic Sans MS";
+  margin-top: 5px;
+  margin-bottom: 5px ;
+  text-align: center;
+}
+
+header li {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px ;
+  padding-right: 25px ;
+  border-right: 1px solid white ;
+}
+
 header a:visited {
   color:  black;
 }
 
 header a:link {
   color:white;
-
 }
 
 a:visited {
   color: green;
 }
-
-
 
 main {
   position: relative;
@@ -55,29 +74,6 @@ img {
    margin: auto;
 }
 
-
-header {
-  position:fixed;
-  background: blue ;
-  width: 100%;
-  z-index: 1;
-}
-
-header h1 {
-  font-family:"Comic Sans MS";
-  margin-top: 5px;
-  margin-bottom: 5px ;
-  text-align: center;
-}
-
-header li {
-  display: inline-block;
-  vertical-align: top;
-  padding-left: 25px ;
-  padding-right: 25px ;
-  border-right: 1px solid white ;
-}
-
 @media screen and (max-width: 550px) {
   header li{
     width: 100%;
@@ -86,9 +82,11 @@ header li {
     padding: 0;
     margin-top: 5px ;
   }
+
   main {
     top: 200px;
   }
+
   #rabbitshift {
     top:225px;
   }
