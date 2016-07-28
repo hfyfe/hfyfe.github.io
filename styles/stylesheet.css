@@ -11,7 +11,6 @@ header a:visited {
 
 main a:visited {
   color: green;
-
 }
 
 main {
@@ -22,10 +21,17 @@ main {
   margin: auto;
 }
 
+main h1 {
+  margin-top: 50px ;
+}
+
 section {
   max-width: 100% ;
   text-align: left;
+}
 
+.signup {
+  margin: 5px ;
 }
 
 footer {
@@ -50,6 +56,7 @@ header {
 }
 
 header h1 {
+  font-family:"Comic Sans MS";
   margin-top: 5px;
   margin-bottom: 5px ;
   text-align: center;
@@ -75,4 +82,5 @@ header li {
 
 #currentpage {
   text-transform: uppercase;
+  font-weight: bold;
 }
