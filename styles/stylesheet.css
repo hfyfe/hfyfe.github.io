@@ -9,9 +9,16 @@ header a:visited {
   color:  black;
 }
 
+header a:link {
+  color:white;
+
+}
+
 a:visited {
   color: green;
 }
+
+
 
 main {
   position: relative;
